@@ -1,0 +1,62 @@
+body{
+    background-color:#212529;
+    font-weight: 100;
+}
+
+/* Estilos personalizados para la FilterBar */
+.custom-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #271E5F; /* Color de fondo personalizado */
+    padding: 10px; /* Relleno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .custom-nav .nav-link {
+    color: white; /* Color del texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .custom-nav .nav-link.active {
+    color: white; /* Color del texto del enlace activo */
+    background-color: #e9ecef; /* Color de fondo del enlace activo */
+    border-radius: 5px; /* Bordes redondeados para el enlace activo */
+  }
+  
+  .custom-nav .nav-link:hover {
+    color: #0056b3; /* Color del texto cuando se pasa el ratón por encima */
+  }
+  
+
+.custom-icon {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+    color: #007bff; /* Color del icono */
+  }
+  
+  .custom-card {
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    margin: 1rem;
+    font-size: small;
+    font-weight: lighter;
+    color: gray;
+    background-color:white;
+}
+
+.custom-card-img {
+    height: 8rem;
+    width: 6rem;
+    border-radius: 5px;
+    margin: auto; 
+}  
+
+.custom-card-title {
+  font-size: 0.8rem;
+  font-family: Arial, sans-serif; 
+}
+
+.custom-card-info {
+ margin: 1rem;
+ text-decoration: none;
+}

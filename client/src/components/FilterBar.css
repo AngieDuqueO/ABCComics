@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Estilos personalizados para la FilterBar */
+.custom-nav {
+    background-color: #f8f9fa; /* Color de fondo personalizado */
+    padding: 10px; /* Relleno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .custom-nav .nav-link {
+    color: #333; /* Color del texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .custom-nav .nav-link.active {
+    color: #007bff; /* Color del texto del enlace activo */
+    background-color: #e9ecef; /* Color de fondo del enlace activo */
+    border-radius: 5px; /* Bordes redondeados para el enlace activo */
+  }
+  
+  .custom-nav .nav-link:hover {
+    color: #0056b3; /* Color del texto cuando se pasa el ratón por encima */
+  }
+  
